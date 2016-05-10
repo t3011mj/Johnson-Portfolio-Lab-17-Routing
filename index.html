@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular-route.js"></script>
+	<script src="js/Lab17Route.js"> </script>
+	<script src="js/Lab17.js"> </script>
+	<link href="css/Lab17.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body ng-app="ShowCatsandDogs">
+
+	<h1>Show Animals</h1>
+
+	<a href="#/view4">Walrus</a> |
+	<a href="#/view3">Ferret</a> |
+	<a href="#/view2">Dog</a>    |
+	<a href="#/view1">Cat</a>    |
+	<a href="#/view5">Other</a>  |
+	<a href="#/view6">Whale</a>  
+
+	<div ng-view = ""> 
+	</div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+body {
+	text-align: center;
+	background-image: url("../images/abstract.jpg");
+	background-size: 100% 100%;
+	color: white;
+	font-size: 1.5em;
+}
+
+a { 
+	color: white ;
+	text-decoration: none;
+}
+
+h3 {
+	font-family: cursive;
+}
+
+img {
+	border: solid;
+	border-width: 7px;
+	border-color: navy;
+}
